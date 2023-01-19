@@ -6,17 +6,18 @@
         <meta name="description" content="Tech Returners News">
         <meta name="author" content="Jim Eggs">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css"/>
         <title>Tech Returners News</title>
     </head>
 
     <body>
         <header>
-            <h1><a href="#">Tech Returner News</a></h1>
+            <h1><a href="#">Tech Returners News</a></h1>
         </header>
 
         <div>
             <nav>
-                <ul>
+                <ul class="main_nav">
                     <li><a href="#">News</a></li>
                     <li><a href="#">Opinion</a></li>
                     <li><a href="#">Tech</a></li>
@@ -29,7 +30,7 @@
             </nav>
         </div>
 
-        <fieldset>
+        <fieldset class="accessibility_selection">
             <legend>Accessibility Options</legend>
             <div>
                 <input type="checkbox" id="flashing" name="chk_flash" value="">
@@ -38,13 +39,13 @@
         </fieldset>
 
         <main>
-            <article>
-                <h2>Accessibility Features: Easy Wins</h2>                
-                <section>   
+            <article class="main_article">
+                <h2 class="article_heading">Accessibility Features: Easy Wins</h2>                
+                <section class="article_section">   
                     <a id="article_title"></a>
-                    <address>Author: <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a>. 04/08/21</address>                             
-                    <img src="image.jpg" alt="" width="700" height="400">
-                    <h3>Handy Tips on How to Create Accessible Websites for Everyone</h3>
+                    <address class="article_author">Author: <a href="mailto:jimmy.eggs@hotmail.com">Jim Eggs</a>. 04/08/21</address>                             
+                    <img class="article_img" src="image.jpg" alt="" width="700" height="400">
+                    <h3 class="article_subheading">Handy Tips on How to Create Accessible Websites for Everyone</h3>
                     <div id="article_shortcuts">
                         <nav>
                             <ul>
@@ -56,9 +57,9 @@
                         </nav>
                     </div>
                 </section>                
-                <section>
+                <section class="article_section">
                     <a id="article_intro"></a>
-                    <h3>Introduction</h3>
+                    <h3 class="article_subheading">Introduction</h3>
                     <p>Tim Berners Lee dreamt of a World Wide Web that would be free and accessible to everyone. Sadly, the modern web is littered with poorly 
                     designed websites and difficult to navigate code (for both developers and users). This often comes down to a lack of understanding 
                     around different user needs.</p>
@@ -69,9 +70,9 @@
                     <br>
                     <p>What would a truly accessible city look like? <a href="">Read more..</a></p>
                 </section>
-                <section>
+                <section class="article_section">
                     <a id="article_main"></a>
-                    <h3>Accessibility Checks</h3>
+                    <h3 class="article_subheading">Accessibility Checks</h3>
                     <p>Heading elements & Page Titles: HTML heading elements have been used to represent page structure, supporting assistive technologies 
                     that allow page navigation from heading to heading.</p>
                     <br>
@@ -96,16 +97,16 @@
                     <br>
                     <p>For more information on Web Accessibility view: <a href="">https://www.w3.org/WAI/test-evaluate/preliminary/</a></p>
                 </section>
-                <section>
+                <section class="article_section">
                     <a id="article_conclusion"></a>
-                    <h3>Conclusion</h3>
+                    <h3 class="article_subheading">Conclusion</h3>
                     <p>By spending just a little more time on getting the building blocks of the web right, developers can help create an 
                     Internet that works for <em>everyone</em>.</p>
                 </section>
             </article>
-            <article>
+            <article class="article_stories">
                 <a id="more_stories"></a>
-                <h2>More Stories</h2>
+                <h2 class="article_heading">More Stories</h2>
                 <nav>
                     <ul>
                         <li><a href="">Tokyo Olympics: Gold for Great Britain!</a></li>
@@ -124,7 +125,7 @@
         <footer>
             <div>
                 <nav>
-                    <ul>
+                    <ul class="footer_nav">
                         <li><a href="#">News</a></li>
                         <li><a href="#">Opinion</a></li>
                         <li><a href="#">Sport</a></li>

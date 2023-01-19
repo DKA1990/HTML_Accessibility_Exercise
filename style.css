@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+
+header {
+    font-family: 'Didact Gothic';
+    font-size: 2rem;
+    text-align: center;
+    border: 4px solid;
+    border-color: darkmagenta;
+    background-color: whitesmoke;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+header a {
+    color: darkmagenta;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkmagenta;
+    border-bottom: 4px solid;
+    border-color: darkmagenta;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.main_nav li {
+    float: left;
+    width: 10%;
+}
+
+.main_nav li a {
+    font-family: 'Didact Gothic';
+    font-size: 1.25rem;
+    text-align: center; 
+    color: white;         
+    display: block;
+}
+
+.main_nav li a:hover {
+    background-color: black;
+}
+
+.accessibility_selection {
+    font-family: 'Didact Gothic';
+    margin: 2rem;
+    border-color: darkmagenta;
+}
+
+.article_heading {
+    font-family: 'Didact Gothic';
+    color: white;
+    background-color: darkmagenta;
+    font-size: 1.25rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.main_article {
+    font-family: 'Didact Gothic';
+    border: 4px solid;
+    border-color: darkmagenta;
+    margin: 2rem;
+    background-color: whitesmoke;
+}
+
+.article_subheading {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.article_section {
+    margin: 2rem;
+    border: 1px solid;
+    border-color: darkmagenta;
+    background-color: white;
+}
+
+.article_author {
+    margin-left: 2rem;
+}
+
+.article_img {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.article_section p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.article_stories {
+    font-family: 'Didact Gothic';
+    border: 4px solid;
+    border-color: darkmagenta;
+    margin: 2rem;
+    background-color: whitesmoke;
+}
+
+.article_stories a {
+    color: black;
+}
+
+.article_stories a:hover {
+    color: navy
+}
+
+.footer_nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkmagenta;
+    border: 4px solid;
+    border-color: darkmagenta;
+    margin: 2rem;
+}
+
+.footer_nav li {
+    float: left;
+    width: 10%;
+}
+
+.footer_nav li a {
+    font-family: 'Didact Gothic';
+    font-size: 1rem;
+    text-align: center; 
+    color: white;         
+    display: block;
+}
+
+.footer_nav li a:hover {
+    background-color: black;
+}
